@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import aiagent from '../../assets/ai-agent.jpg';
+import chatpdf from '../../assets/chat-pdf.jpg';
+import clipace from '../../assets/clipace.jpg';
+import mtag from '../../assets/mtag.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,25 +11,25 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={aiagent}
           link="https://github.com/naveen5635/ai-research-agent"
           h3="Ai Agent"
           p="Ai research agent"
         />
         <ProjectCard
-          src={freshBurger}
+          src={chatpdf}
           link="https://github.com/naveen5635/doczy"
           h3="Doczy"
           p="Chat with PDF"
         />
         <ProjectCard
-          src={hipsster}
+          src={clipace}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Clipace"
           p="Adobe plugin"
         />
         <ProjectCard
-          src={fitLift}
+          src={mtag}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Mtag"
           p="Fitness app"
