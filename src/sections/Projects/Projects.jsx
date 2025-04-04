@@ -24,13 +24,13 @@ function Projects() {
         />
         <ProjectCard
           src={clipace}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="#"
           h3="Clipace"
           p="Adobe plugin"
         />
         <ProjectCard
           src={mtag}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="#"
           h3="Mtag"
           p="Fitness app"
         />
